@@ -690,9 +690,9 @@
 </head>
 <body>
 <main>
-    Время           | {{ $remender->date }}<br>
-    Организация     | {{ $remender->desc }}<br>
-    Примечания      | {{ $remender->name }}<br>
+    Время           | {{ $reminder->date }}<br>
+    Организация     | {{ $reminder->desc }}<br>
+    Примечания      | {{ $reminder->name }}<br>
 </main>
 <p>© Copyright <?=date('Y')?> {{ env("APP_NAME") }} - All Rights Reserved</p>
 
